@@ -1,4 +1,5 @@
 import { Product } from "../../interfaces/product/product.interface"
+import '../../styles/CardProducts.scss';
 
 interface Props{
     product:Product

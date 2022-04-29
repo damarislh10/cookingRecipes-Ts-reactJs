@@ -1,18 +1,46 @@
-import '../styles/Navbar.css'
-
-export function NavBar(){
-    return (
+import "../styles/NavBar.scss";
+export function NavBar() {
+  return (
+    <>
+      <div className="container">
         <div className="navbar">
-            <a href="/">Home</a>
-            <a href="/vegeta">Vegetarianos</a>
-            <a>Platos principales</a>
-            <a>Tortas</a>
-            <a>Comida rapida</a>
-            <a>Menú niños</a>
-            <a>Sopas</a>
-
+          <div className="grid">
+            <div className="row">
+              <div className="col">
+                <div className="title">
+                  <span className="text1">Recipe</span>
+                  <span className="text2">App</span>
+                </div>
+              </div>
+              <div className="col">
+                <ul className="li">
+                  <li>
+                    <a href="/">Home</a>
+                  </li>
+                  <li>
+                    <a href="/vegeta">Vegetarianos</a>
+                  </li>
+                  <li>
+                    <a href="/">Platos principales</a>
+                  </li>
+                  <li>
+                    <a href="/">Tortas</a>
+                  </li>
+                  <li>
+                    <a href="/">Comida rapida</a>
+                  </li>
+                  <li>
+                    <a href="/">Menú niños</a>
+                  </li>
+                  <li>
+                    <a href="/">Sopas</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
-    )
+      </div>
+    </>
+  );
 }
-
-

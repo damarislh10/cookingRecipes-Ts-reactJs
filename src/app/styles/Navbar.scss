@@ -1,6 +1,43 @@
-@import '../variables/variables.scss';
-.navbar {
-    width: 100%;
-    height: 100px;
-    color: $colorNavbar;
+@import "../styles/variables/variables.scss";
+
+.container {
+    padding:$paddingMain;
+    background-color:$whiteColor;
+
 }
+.navbar {
+  width: 100%;
+  height: 69px;
+}
+
+.title 
+.text1{
+    font: normal normal normal 40px/48px Monster Clubhouse;
+    letter-spacing: 1.15px;
+    color: #425966;
+}
+
+.title 
+.text2{
+    font: normal normal normal 30px/46px Poppins;
+    letter-spacing: 0.86px;
+    color: #D84A4A;
+    opacity: 1;
+}
+.row {
+    display: grid; 
+    grid-template-columns: 2fr 3fr; 
+    align-items:center;
+}
+.navbar
+ .li {
+  display: flex;
+  justify-content: space-around;
+  list-style:none;
+}
+.navbar
+    .li a{
+        color:$unnamed-color;
+        text-decoration:none;
+        font-size:$sizeLetter;
+    }

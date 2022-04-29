@@ -1,23 +1,25 @@
 @import "../styles/variables/variables.scss";
 
-.back-image{
-    background: transparent url('https://res.cloudinary.com/df90q7vvj/image/upload/v1651261062/pruebatecnicaAranda/bcq_ndoibx.jpg') 0% 0% no-repeat padding-box;
-    opacity: 1;
-    height:60vh;
+.back-image {
+  background: transparent
+    url("https://res.cloudinary.com/df90q7vvj/image/upload/v1651261062/pruebatecnicaAranda/bcq_ndoibx.jpg")
+    0% 0% no-repeat padding-box;
+  opacity: 1;
+  height: 60vh;
 }
 
-.image-text{
-    color:$whiteColor;  
-    padding: 1% 0 0 20%;
-    font: normal normal normal 80px/50px Poppins;
-    opacity: 1;
+.image-text {
+  color: $whiteColor;
+  padding: 1% 0 0 20%;
+  font: normal normal normal 80px/50px Poppins;
+  opacity: 1;
 }
 
- .text-recete{
-    font-size:74px;
+.text-recete {
+  font-size: 74px;
 }
 
-.text-all{
-    font-size:67px;
-    font: normal normal normal 67px/91px Monster Clubhouse;
+.text-all {
+  font-size: 67px;
+  font: normal normal normal 67px/91px Monster Clubhouse;
 }

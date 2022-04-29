@@ -1,10 +1,6 @@
 import "../styles/NavBar.scss";
-import React, { useState, useRef } from "react";
-
-
 
 export function NavBar() {
-
   return (
     <>
       <div className="container">
@@ -20,7 +16,9 @@ export function NavBar() {
               <div className="col">
                 <ul className="li">
                   <li>
-                    <a className="Home" href="/">Home</a>
+                    <a className="Home" href="/">
+                      Home
+                    </a>
                   </li>
                   <li>
                     <a href="/vegetarianos">Vegetarianos</a>

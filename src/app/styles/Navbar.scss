@@ -41,3 +41,15 @@
         text-decoration:none;
         font-size:$sizeLetter;
     }
+.navbar
+    .li .Home{
+        color:$activeColor;
+}
+.navbar
+    .li a:active{
+        color:$activeColor;
+    }
+    .navbar
+    .li a:visited{
+        color:$activeColor;
+    }

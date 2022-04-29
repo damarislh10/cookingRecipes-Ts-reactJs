@@ -1,5 +1,10 @@
 import "../styles/NavBar.scss";
+import React, { useState, useRef } from "react";
+
+
+
 export function NavBar() {
+
   return (
     <>
       <div className="container">
@@ -15,25 +20,25 @@ export function NavBar() {
               <div className="col">
                 <ul className="li">
                   <li>
-                    <a href="/">Home</a>
+                    <a className="Home" href="/">Home</a>
                   </li>
                   <li>
-                    <a href="/vegeta">Vegetarianos</a>
+                    <a href="/vegetarianos">Vegetarianos</a>
                   </li>
                   <li>
-                    <a href="/">Platos principales</a>
+                    <a href="/MainPlatos">Platos principales</a>
                   </li>
                   <li>
-                    <a href="/">Tortas</a>
+                    <a href="/tortas">Tortas</a>
                   </li>
                   <li>
-                    <a href="/">Comida rapida</a>
+                    <a href="/comidaRapida">Comida rapida</a>
                   </li>
                   <li>
-                    <a href="/">Menú niños</a>
+                    <a href="/menu">Menú niños</a>
                   </li>
                   <li>
-                    <a href="/">Sopas</a>
+                    <a href="/sopas">Sopas</a>
                   </li>
                 </ul>
               </div>

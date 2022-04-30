@@ -1,0 +1,31 @@
+@import "../styles/variables/variables.scss";
+
+.container-footer {
+  background: transparent linear-gradient(180deg, #c2e3f3 0%, #6aa3c1 100%) 0%
+    0% no-repeat padding-box;
+  box-shadow: 4px 6px 23px #a9a9a911;
+  opacity: 1;
+  margin-top: 12%;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-bottom: 2%;
+  height: 150px;
+  box-shadow: 4px 6px 23px #a9a9a911;
+  opacity: 1;
+}
+
+.imgProdu {
+  width: 536px;
+  height: 248px;
+  margin-top: -12%;
+}
+
+.text-patroci {
+  color: $unnamed-color;
+  font: normal normal normal 56px/67px Monster Clubhouse;
+  margin-left: 15%;
+}
+
+.row-footer {
+  grid-template-columns: 4fr 2fr;
+}

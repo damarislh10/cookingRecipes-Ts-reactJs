@@ -1,6 +1,8 @@
 export const RecetesNew = [
   {
     id: 1,
+    normal:"normal1",
+    hoverC:"hover1",
     image:"https://res.cloudinary.com/df90q7vvj/image/upload/v1651261061/pruebatecnicaAranda/Ojingeo-muchim-5_ckt5xh.png",
     firName:"Ojingeo",
     secondName:"Muchim",
@@ -11,6 +13,8 @@ export const RecetesNew = [
   },
   {
     id: 2,
+    normal:"normal2",
+    hoverC:"hover2",
     firName:"Cola",
     image:"https://res.cloudinary.com/df90q7vvj/image/upload/v1651261061/pruebatecnicaAranda/Ojingeo-muchim_dbl6qt.png",
     secondName:"Chicken",

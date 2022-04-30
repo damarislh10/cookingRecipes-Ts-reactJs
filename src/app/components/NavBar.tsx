@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "../styles/NavBar.scss";
 
 export function NavBar() {
@@ -24,7 +25,7 @@ export function NavBar() {
                     <a href="/vegetarianos">Vegetarianos</a>
                   </li>
                   <li>
-                    <a href="/MainPlatos">Platos principales</a>
+                    <Link to="/product">Platos principales</Link>
                   </li>
                   <li>
                     <a href="/tortas">Tortas</a>

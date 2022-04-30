@@ -4,23 +4,28 @@ import { RecetesNew } from "./JsonNewRecetes";
 
 export const NewRecetes = () => {
   const [show, setShow] = useState(1);
+  const [OneOpen, setOneOpen] = useState(false);
 
-  const verDetail = () => {
-    setShow(0);
+  const verDetail = (nor:any,hoverc:any) => {
+      if(nor){
+        setShow(0);
+      }else{
+        setShow(1);
+      }
   };
-  const volver = () => {
-    setShow(1);
-  };
+//   const volver = () => {
+//     setShow(1);
+//   };
   return (
     <>
       <div className="container">
         <h2 className="title-news">Nuevas Recetas</h2>
         <div className="container-cards">
-          {RecetesNew.map((receteNew) => (
-            <div>
+          {RecetesNew.map((receteNew,index) => (
+            <div key={index}>
               {show === 1 ? (
                 <div
-                  onMouseEnter={verDetail}
+                  onMouseEnter={()=>verDetail(receteNew.normal,receteNew.hoverC)}
                   className="card"
                   style={{ width: "16rem" }}
                 >
@@ -56,7 +61,7 @@ export const NewRecetes = () => {
                 </div>
               ) : (
                 <div
-                  onMouseLeave={volver}
+                  onMouseLeave={()=>verDetail(receteNew.normal,receteNew.hoverC)}
                   className="card"
                   style={{ width: "16rem" }}
                 >

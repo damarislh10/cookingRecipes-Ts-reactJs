@@ -27,8 +27,8 @@
   text-align: center;
   color: $activeColor;
 }
-.card-body{
-    padding: 0 6%;
+.card-body {
+  padding: 0 6%;
 }
 .first-name {
   font: normal normal normal 30px/36px Poppins;
@@ -39,15 +39,30 @@
   letter-spacing: -0.6px;
 }
 
-.card-califica{
-    display: flex;
-    justify-content: space-between;
+.card-califica {
+  display: flex;
+  justify-content: space-between;
 }
 
-.calificacion{
-    color:$unnamed-color;
-    font-size: 26px;
-    letter-spacing: -0.52px;
-    opacity: 1;
-    font: normal normal normal 26px/39px Poppins;
+.calificacion {
+  color: $unnamed-color;
+  font-size: 26px;
+  letter-spacing: -0.52px;
+  opacity: 1;
+  font: normal normal normal 26px/39px Poppins;
+}
+
+.conta-hover {
+  text-align: center;
+  padding-bottom: 2%;
+}
+.subtitle-hover {
+  font: normal normal normal 17px/20px Monster Clubhouse;
+  color: $activeColor;
+  margin-top: -2%;
+}
+
+.text-body{
+  font: normal normal normal 15px/20px Poppins;
+  color: $unnamed-color;
 }

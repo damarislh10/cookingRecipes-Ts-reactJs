@@ -3,6 +3,15 @@
 .container-cards {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card-main{
+  margin-bottom: 40%;
+}
+
+.image-main{
+  border-radius: 100px;
 }
 .title-news {
   margin-bottom: 8%;
@@ -22,6 +31,7 @@
 .cont-image .image-card {
   margin-top: -30%;
   width: 164px;
+  height: 158px;
 }
 .text-names {
   text-align: center;

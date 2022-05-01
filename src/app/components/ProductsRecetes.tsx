@@ -26,10 +26,13 @@ function ProductsRecetes() {
 
   return (
     <div>
-      <div className="wrapper">
-        {results.products.map((item, index) => (
-          <CardProduct key={index} product={{ ...item }} index={index} />
-        ))}
+      <div className="container">
+        <h2 className="title-news">Recetas Principales</h2>
+        <div className="container-cards">
+          {results.products.map((item, index) => (
+            <CardProduct key={index} product={{ ...item }} index={index} />
+          ))}
+        </div>
       </div>
     </div>
   );

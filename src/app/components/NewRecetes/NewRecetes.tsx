@@ -1,5 +1,4 @@
 import React from "react";
-import { useEffect } from "react";
 import { useState } from "react";
 import { RecetesNew } from "./JsonNewRecetes";
 
@@ -22,9 +21,9 @@ export const NewRecetes = () => {
   };
   const verHover = (i: number): void => {
     modif();
-    const newTasks: IVer[] = [...data]; // busqueda arreglo copia del arreglo
-    newTasks[i].ver = !newTasks[i].ver; // tengo tareas buscar una i actualizarlo con su propiedad done a lo contrario
-    setData(newTasks);
+    const newRecetes: IVer[] = [...data]; // busqueda arreglo copia del arreglo
+    newRecetes[i].ver = !newRecetes[i].ver; // tengo recetas buscar una i actualizarlo con su propiedad ver a lo contrario
+    setData(newRecetes);
   };
 
   return (

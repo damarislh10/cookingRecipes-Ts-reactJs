@@ -14,7 +14,7 @@ Una importante firma de escuelas de cocina nos encargo el diseño de una platafo
 
  ### Tecnologias usadas 💻
 
-`REACT JS / REDUX /TYPESCRIPT / SASS/ CSS`
+`REACT JS / REDUX /TYPESCRIPT / SASS/ CSS / NODEJS`
 
 *********************
 

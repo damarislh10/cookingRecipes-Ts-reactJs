@@ -32,7 +32,7 @@ export const NewRecetes = () => {
         <h2 className="title-news">Nuevas Recetas</h2>
         <div className="container-cards ">
           {RecetesNew.map((receteNew, index) => (
-            <div key={index}>
+            <div className="new-div" key={index}>
               <div
                 className="card cards-new"
                 style={{ width: "16rem" }}

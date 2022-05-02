@@ -7,7 +7,7 @@ export const MenuResponsive = () => {
     <>
       <div className="container ">
         <div className=" container-menu">
-          <Link to="/vegetarianos">
+          <Link className="link-menu" to="/vegetarianos">
             <div className="cards-menu-top">
               <div className="card card-menu" style={{ width: "12rem" }}>
                 <div className="cont-image image-menu">
@@ -25,7 +25,7 @@ export const MenuResponsive = () => {
               </div>
             </div>
           </Link>
-          <Link to="/product">
+          <Link className="link-menu" to="/product">
             <div className="cards-menu-top">
               <div className="card card-menu" style={{ width: "12rem" }}>
                 <div className="cont-image image-menu">
@@ -44,7 +44,7 @@ export const MenuResponsive = () => {
             </div>
           </Link>
 
-          <Link to="/">
+          <Link className="link-menu" to="/">
             <div className="cards-menu-top">
               <div className="card card-menu" style={{ width: "12rem" }}>
                 <div className="cont-image image-menu">
@@ -62,7 +62,7 @@ export const MenuResponsive = () => {
               </div>
             </div>
           </Link>
-          <Link to="/">
+          <Link className="link-menu" to="/">
             <div className="cards-menu-top">
               <div className="card card-menu" style={{ width: "12rem" }}>
                 <div className="cont-image image-menu">
@@ -80,7 +80,7 @@ export const MenuResponsive = () => {
               </div>
             </div>
           </Link>
-          <Link to="/">
+          <Link className="link-menu" to="/">
             <div className="cards-menu-top">
               <div className="card card-menu" style={{ width: "12rem" }}>
                 <div className="cont-image image-menu">
@@ -98,7 +98,7 @@ export const MenuResponsive = () => {
               </div>
             </div>
           </Link>
-          <Link to="/">
+          <Link className="link-menu" to="/">
             <div className="cards-menu-top">
               <div className="card card-menu" style={{ width: "12rem" }}>
                 <div className="cont-image image-menu">

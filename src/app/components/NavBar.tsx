@@ -31,19 +31,22 @@ export function NavBar() {
                     <a href="/tortas">Tortas</a>
                   </li>
                   <li>
-                    <a href="/comidaRapida">Comida rapida</a>
+                    <Link to="/">Comida rápida</Link>
                   </li>
                   <li>
-                    <a href="/menu">Menú niños</a>
+                    <Link to="/">Menú niños</Link>
                   </li>
                   <li>
-                    <a href="/sopas">Sopas</a>
+                    <Link to="/">Sopas</Link>
                   </li>
                 </ul>
                 <ul className="li menu-responsive">
                   <li>
                     <Link className="Home" to="/">
-                      <img src="https://res.cloudinary.com/df90q7vvj/image/upload/v1651261072/pruebatecnicaAranda/ic_home_a6wsjt.svg" />
+                      <img
+                        src="https://res.cloudinary.com/df90q7vvj/image/upload/v1651261072/pruebatecnicaAranda/ic_home_a6wsjt.svg"
+                        alt="home-tablet"
+                      />
                     </Link>
                   </li>
                 </ul>

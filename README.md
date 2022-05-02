@@ -32,5 +32,5 @@ podras clonar y/o forkear el codigo de gestwork haciendo uso del git clone o git
 
 **********************
 
-### Autoras ✒️
+### Autora ✒️
 * Damaris Hernandez - Desarrolladora frontend - [damarislh10](https://github.com/damarislh10)

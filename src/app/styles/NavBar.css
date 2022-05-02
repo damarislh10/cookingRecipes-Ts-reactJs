@@ -1,0 +1,74 @@
+.container {
+  padding: 0 5%;
+  background-color: #ffff;
+}
+
+.navbar {
+  width: 100%;
+  padding: 1% 0;
+}
+
+.title .text1 {
+  font: normal normal normal 40px/48px Monster Clubhouse;
+  letter-spacing: 1.15px;
+  color: #425966;
+}
+
+.title .text2 {
+  font: normal normal normal 30px/46px Poppins;
+  letter-spacing: 0.86px;
+  color: #d84a4a;
+  opacity: 1;
+}
+
+.row {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 3fr;
+      grid-template-columns: 2fr 3fr;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar .li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  list-style: none;
+}
+
+.navbar .li a {
+  color: #425966;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.navbar .li .Home {
+  color: #d84a4a;
+}
+
+.navbar .li a:active {
+  color: #d84a4a;
+}
+
+.navbar .li a:visited {
+  color: #d84a4a;
+}
+
+.menu-responsive {
+  display: none !important;
+}
+
+@media only screen and (max-width: 912px) {
+  .menu-responsive {
+    display: block !important;
+    float: right;
+  }
+  .li-desktop {
+    display: none !important;
+  }
+}
+/*# sourceMappingURL=NavBar.css.map */

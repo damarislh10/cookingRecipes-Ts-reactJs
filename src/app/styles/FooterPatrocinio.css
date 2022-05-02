@@ -1,0 +1,73 @@
+.container-footer {
+  background: transparent -webkit-gradient(linear, left top, left bottom, from(#c2e3f3), to(#6aa3c1)) 0% 0% no-repeat padding-box;
+  background: transparent linear-gradient(180deg, #c2e3f3 0%, #6aa3c1 100%) 0% 0% no-repeat padding-box;
+  -webkit-box-shadow: 4px 6px 23px #a9a9a911;
+          box-shadow: 4px 6px 23px #a9a9a911;
+  opacity: 1;
+  margin-top: 12%;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-bottom: 2%;
+  height: 150px;
+  box-shadow: 4px 6px 23px #a9a9a911;
+  opacity: 1;
+}
+
+.imgProdu {
+  width: 536px;
+  height: 248px;
+  margin-top: -12%;
+}
+
+.text-patroci {
+  color: #425966;
+  font: normal normal normal 50px/67px Monster Clubhouse;
+  margin-left: 15%;
+}
+
+.row-footer {
+  -ms-grid-columns: 4fr 2fr;
+      grid-template-columns: 4fr 2fr;
+}
+
+@media only screen and (max-width: 912px) {
+  .text-patroci {
+    font: normal normal normal 39px/47px Monster Clubhouse;
+  }
+  .imgProdu {
+    width: 379px;
+  }
+}
+
+@media only screen and (min-width: 280px) and (max-width: 540px) {
+  .container-footer {
+    height: 70px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .imgProdu {
+    width: 180px;
+    height: 106px;
+  }
+  .text-patroci {
+    font: normal normal normal 20px/28px Monster Clubhouse;
+  }
+}
+
+@media only screen and (min-width: 280px) and (max-width: 280px) {
+  .container-footer {
+    height: 60px;
+  }
+  .imgProdu {
+    width: 100px;
+    height: 90px;
+  }
+  .text-patroci {
+    font: normal normal normal 16px/28px Monster Clubhouse;
+  }
+}
+/*# sourceMappingURL=FooterPatrocinio.css.map */

@@ -1,0 +1,71 @@
+.imgRespo {
+  width: 50px;
+  height: 50px;
+}
+
+.image-menu {
+  margin-top: 9%;
+}
+
+.card-menu {
+  padding: 2%;
+  height: 150px;
+  margin-bottom: 10%;
+}
+
+.text-menu {
+  font: normal normal medium 13px/20px Poppins;
+  color: #425966;
+  font-weight: bold;
+}
+
+.link-menu {
+  text-decoration: none;
+  margin-right: 5%;
+}
+
+.container-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  position: absolute;
+  margin-top: -15%;
+}
+
+@media only screen and (min-width: 280px) and (max-width: 540px) {
+  .image-menu {
+    margin-top: 5%;
+  }
+  .text-menu {
+    font-size: 13px;
+    margin-top: -15%;
+  }
+  .imgRespo {
+    width: 30px;
+    height: 30px;
+  }
+  .card-menu {
+    width: 6rem !important;
+    padding: 2%;
+    height: 90px;
+    margin-bottom: 10%;
+  }
+  .container-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    position: absolute;
+    margin-top: -8%;
+  }
+}
+/*# sourceMappingURL=MenuResponsive.css.map */

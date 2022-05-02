@@ -1,0 +1,151 @@
+.container-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.new-div {
+  margin-bottom: 10%;
+}
+
+.image-main {
+  border-radius: 100px;
+}
+
+.title-news {
+  margin-bottom: 8%;
+  color: #d84a4a;
+  font: normal normal normal 67px/80px Monster Clubhouse;
+}
+
+.card {
+  -webkit-transition: height 0.2s;
+  transition: height 0.2s;
+  background: transparent -webkit-gradient(linear, left top, left bottom, from(#e9f1fa), to(#ffffff)) 0% 0% no-repeat padding-box;
+  background: transparent linear-gradient(180deg, #e9f1fa 0%, #ffffff 100%) 0% 0% no-repeat padding-box;
+  -webkit-box-shadow: 10px 10px 20px -5px #cccccc;
+          box-shadow: 10px 10px 20px -5px #cccccc;
+  border-radius: 15px;
+}
+
+.cont-image {
+  text-align: center;
+}
+
+.cont-image .image-card {
+  margin-top: -30%;
+  width: 164px;
+  height: 158px;
+}
+
+.text-names {
+  text-align: center;
+  color: #d84a4a;
+}
+
+.card-body {
+  padding: 0 6%;
+}
+
+.first-name {
+  font: normal normal normal 30px/36px Poppins;
+  letter-spacing: -0.6px;
+}
+
+.second-name {
+  font: normal normal normal 30px/36px Monster Clubhouse;
+  letter-spacing: -0.6px;
+}
+
+.card-califica {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.calificacion {
+  color: #425966;
+  font-size: 26px;
+  letter-spacing: -0.52px;
+  opacity: 1;
+  font: normal normal normal 26px/39px Poppins;
+}
+
+.conta-hover {
+  text-align: center;
+  padding-bottom: 2%;
+}
+
+.subtitle-hover {
+  font: normal normal normal 17px/20px Monster Clubhouse;
+  color: #d84a4a;
+  margin-top: -2%;
+}
+
+.text-body {
+  font: normal normal normal 15px/20px Poppins;
+  color: #425966;
+}
+
+@media only screen and (max-width: 912px) {
+  .title-news {
+    margin-top: 35%;
+  }
+  .container-cards {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    overflow: auto;
+  }
+  .cards-new {
+    margin-top: 25%;
+    margin-right: 25.82px;
+  }
+  .title-news {
+    margin-bottom: 0%;
+  }
+}
+
+@media only screen and (min-width: 280px) and (max-width: 540px) {
+  .title-news {
+    margin-top: 60%;
+    text-align: center;
+    font: normal normal normal 54px/65px Monster Clubhouse;
+  }
+  .cards-new {
+    width: 12rem !important;
+    position: relative;
+  }
+  .cont-image .image-card {
+    width: 104px;
+    height: 108px;
+  }
+  .first-name {
+    font: normal normal normal 25px/24px Poppins;
+    letter-spacing: -0.4px;
+  }
+  .second-name {
+    font: normal normal normal 25px/24px Monster Clubhouse;
+  }
+  .calificacion {
+    font: normal normal normal 17px/26px Poppins;
+    letter-spacing: -0.34px;
+  }
+  .img-icon {
+    width: 16px;
+  }
+}
+
+@media only screen and (min-width: 280px) and (max-width: 280px) {
+  .title-news {
+    margin-top: 300px;
+  }
+}
+/*# sourceMappingURL=CardProducts.css.map */

@@ -15,7 +15,6 @@ function ProductsRecetes() {
   useEffect(() => {
     (async function () {
       const { data } = await ProductService.getProducts();
-      console.log(data.extendedIngredients);
       dispatch({ type: ADD_PRODUCTS, payload: data.extendedIngredients });
     })();
   }, [dispatch]);

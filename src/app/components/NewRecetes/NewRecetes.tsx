@@ -23,7 +23,7 @@ export const NewRecetes = () => {
     modif();
     const newRecetes: IVer[] = [...data]; // busqueda arreglo copia del arreglo
     newRecetes[i].ver = !newRecetes[i].ver; // tengo recetas buscar una i actualizarlo con su propiedad ver a lo contrario
-    setData(newRecetes);
+   
   };
 
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/FooterPatrocinio.scss";
+import "../styles/FooterPatrocinio.css";
 
 export const FooterPatrocinio = () => {
   return (

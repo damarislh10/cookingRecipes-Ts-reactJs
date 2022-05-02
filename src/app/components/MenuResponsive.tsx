@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../styles/MenuResponsive.scss";
+import "../styles/MenuResponsive.css";
 
 export const MenuResponsive = () => {
   return (

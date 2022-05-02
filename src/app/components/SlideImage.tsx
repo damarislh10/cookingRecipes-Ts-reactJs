@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/SlideImage.scss";
+import "../styles/SlideImage.css";
 
 export const SlideImage = () => {
   return (

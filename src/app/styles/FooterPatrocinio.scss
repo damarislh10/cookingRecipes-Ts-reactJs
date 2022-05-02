@@ -53,3 +53,16 @@
     font: normal normal normal 20px/28px Monster Clubhouse;
   }
 }
+
+@media only screen and (min-width: 280px) and (max-width: 280px) {
+  .container-footer {
+    height: 60px;
+  }
+  .imgProdu {
+    width: 100px;
+    height: 90px;
+  }
+  .text-patroci {
+    font: normal normal normal 16px/28px Monster Clubhouse;
+  }
+}

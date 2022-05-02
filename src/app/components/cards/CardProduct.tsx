@@ -10,7 +10,7 @@ export function CardProduct({ product }: Props) {
   return (
     <>
       <div className="container ">
-        <div className="container-cards">
+        <div className="container-cards ">
           <div key={product.id}>
             <div className="card card-main" style={{ width: "16rem" }}>
               <div className="conta-hover">

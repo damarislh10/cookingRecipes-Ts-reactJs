@@ -15,14 +15,14 @@ export function NavBar() {
                 </div>
               </div>
               <div className="col">
-                <ul className="li">
+                <ul className="li li-desktop">
                   <li>
-                    <a className="Home" href="/">
+                    <Link className="Home" to="/">
                       Home
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="/vegetarianos">Vegetarianos</a>
+                    <Link to="/vegetarianos">Vegetarianos</Link>
                   </li>
                   <li>
                     <Link to="/product">Platos principales</Link>
@@ -38,6 +38,13 @@ export function NavBar() {
                   </li>
                   <li>
                     <a href="/sopas">Sopas</a>
+                  </li>
+                </ul>
+                <ul className="li menu-responsive">
+                  <li>
+                    <Link className="Home" to="/">
+                      <img src="https://res.cloudinary.com/df90q7vvj/image/upload/v1651261072/pruebatecnicaAranda/ic_home_a6wsjt.svg" />
+                    </Link>
                   </li>
                 </ul>
               </div>

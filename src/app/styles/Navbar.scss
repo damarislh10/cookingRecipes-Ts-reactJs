@@ -45,3 +45,17 @@
 .navbar .li a:visited {
   color: $activeColor;
 }
+
+.menu-responsive {
+  display: none !important;
+}
+
+@media only screen and(max-width:912px) {
+  .menu-responsive {
+    display: block !important;
+    float: right;
+  }
+  .li-desktop {
+    display: none !important;
+  }
+}

@@ -23,18 +23,18 @@ export const NewRecetes = () => {
     modif();
     const newRecetes: IVer[] = [...data]; // busqueda arreglo copia del arreglo
     newRecetes[i].ver = !newRecetes[i].ver; // tengo recetas buscar una i actualizarlo con su propiedad ver a lo contrario
-   
+    setData(newRecetes);
   };
 
   return (
     <>
       <div className="container">
         <h2 className="title-news">Nuevas Recetas</h2>
-        <div className="container-cards">
+        <div className="container-cards ">
           {RecetesNew.map((receteNew, index) => (
             <div key={index}>
               <div
-                className="card"
+                className="card cards-new"
                 style={{ width: "16rem" }}
                 onMouseEnter={() => verHover(index)}
               >
@@ -117,6 +117,7 @@ export const NewRecetes = () => {
                       <div className="card-califica">
                         <h2>
                           <img
+                            className="star img-icon"
                             src="https://res.cloudinary.com/df90q7vvj/image/upload/v1651261072/pruebatecnicaAranda/ic_star_htf5rb.svg"
                             alt="star"
                           />
@@ -126,6 +127,7 @@ export const NewRecetes = () => {
                         </h2>
 
                         <img
+                          className="img-icon"
                           src="https://res.cloudinary.com/df90q7vvj/image/upload/v1651261074/pruebatecnicaAranda/ic-favorite_hreqej.svg"
                           alt="hearth"
                         />

@@ -6,11 +6,11 @@
   flex-wrap: wrap;
 }
 
-.card-main{
+.card-main {
   margin-bottom: 40%;
 }
 
-.image-main{
+.image-main {
   border-radius: 100px;
 }
 .title-news {
@@ -19,6 +19,7 @@
   font: normal normal normal 67px/80px Monster Clubhouse;
 }
 .card {
+  transition: height 0.2s;
   background: transparent linear-gradient(180deg, #e9f1fa 0%, #ffffff 100%) 0%
     0% no-repeat padding-box;
   box-shadow: 10px 10px 20px -5px #cccccc;
@@ -72,7 +73,55 @@
   margin-top: -2%;
 }
 
-.text-body{
+.text-body {
   font: normal normal normal 15px/20px Poppins;
   color: $unnamed-color;
+}
+
+@media only screen and(max-width:912px) {
+  .title-news {
+    margin-top: 35%;
+  }
+  .container-cards {
+    flex-wrap: nowrap;
+    overflow: auto;
+  }
+  .cards-new {
+    margin-top: 25%;
+    margin-right: 25.82px;
+  }
+  .title-news {
+    margin-bottom: 0%;
+  }
+}
+
+@media only screen and (min-width: 280px) and (max-width: 540px) {
+  .title-news {
+    margin-top: 60%;
+    text-align: center;
+    font: normal normal normal 54px/65px Monster Clubhouse;
+  }
+
+  .cards-new {
+    width: 12rem !important;
+    position: relative;
+  }
+  .cont-image .image-card {
+    width: 104px;
+    height: 108px;
+  }
+  .first-name {
+    font: normal normal normal 25px/24px Poppins;
+    letter-spacing: -0.4px;
+  }
+  .second-name {
+    font: normal normal normal 25px/24px Monster Clubhouse;
+  }
+  .calificacion {
+    font: normal normal normal 17px/26px Poppins;
+    letter-spacing: -0.34px;
+  }
+  .img-icon {
+    width: 16px;
+  }
 }

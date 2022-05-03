@@ -5,7 +5,9 @@
   justify-content: space-between;
   flex-wrap: wrap;
 }
-
+.card-main {
+  margin-bottom: 40% !important;
+}
 .new-div {
   margin-bottom: 10%;
 }
@@ -85,6 +87,9 @@
   .container-cards {
     flex-wrap: nowrap;
     overflow: auto;
+  }
+  .card-main {
+    margin-top: 30%;
   }
   .cards-new {
     margin-top: 25%;

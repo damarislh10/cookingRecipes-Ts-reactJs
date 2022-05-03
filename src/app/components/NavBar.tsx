@@ -28,7 +28,7 @@ export function NavBar() {
                     <Link to="/product">Platos principales</Link>
                   </li>
                   <li>
-                    <a href="/tortas">Tortas</a>
+                    <a href="/">Tortas</a>
                   </li>
                   <li>
                     <Link to="/">Comida rápida</Link>

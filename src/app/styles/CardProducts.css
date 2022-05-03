@@ -8,7 +8,9 @@
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
-
+.card-main{
+  margin-bottom: 40%;
+}
 .new-div {
   margin-bottom: 10%;
 }
@@ -103,6 +105,9 @@
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
     overflow: auto;
+  }
+  .card-main {
+    margin-top: 30%;
   }
   .cards-new {
     margin-top: 25%;

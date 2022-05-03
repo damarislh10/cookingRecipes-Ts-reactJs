@@ -11,8 +11,8 @@ export function CardProduct({ product }: Props) {
     <>
       <div className="container ">
         <div className="container-cards ">
-          <div key={product.id}>
-            <div className="card card-main" style={{ width: "16rem" }}>
+          <div key={product.id} className="card-main">
+            <div className="card" style={{ width: "16rem" }}>
               <div className="conta-hover">
                 <div className="cont-image">
                   <img

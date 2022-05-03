@@ -8,7 +8,7 @@ Una importante firma de escuelas de cocina nos encargo el diseño de una platafo
 
 ### Despliegue 📦
 
-[Link despliegue](https://dazzling-cendol-a55b6a.netlify.app)
+[Link despliegue](https://cooking-recipes-ts-react-js.vercel.app/)
 
 *********************
 

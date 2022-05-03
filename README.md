@@ -8,7 +8,7 @@ Una importante firma de escuelas de cocina nos encargo el diseño de una platafo
 
 ### Despliegue 📦
 
-[Link despliegue](https://dazzling-cendol-a55b6a.netlify.app)
+[Link despliegue](https://cooking-recipes-ts-react-js.vercel.app/)
 
 *********************
 
@@ -20,7 +20,7 @@ Una importante firma de escuelas de cocina nos encargo el diseño de una platafo
 
 ### Clonar repositorio
 
-podras clonar y/o forkear el codigo de gestwork haciendo uso del git clone o git fork, según sea el caso
+podras clonar y/o forkear el codigo de cooking recipes haciendo uso del git clone o git fork, según sea el caso
 
 *********************
 
